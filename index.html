@@ -111,6 +111,15 @@
     .contact .note{font-size:12px;color:var(--muted);margin:14px 0 0}
     @media(max-width:700px){.contact{grid-template-columns:1fr}}
 
+    /* Writing */
+    .posts{max-width:1180px;margin:0 auto;padding:0 32px 70px;border-top:1px solid var(--line)}
+    .post-row{display:grid;grid-template-columns:120px 1fr;gap:28px;padding:30px 0;border-bottom:1px solid var(--line);align-items:baseline;text-decoration:none;color:inherit}
+    .post-row:hover h3{color:var(--gold)}
+    .post-row .date{font-size:12px;letter-spacing:1px;color:var(--muted)}
+    .post-row h3{font-size:17px;font-weight:500;margin:0 0 8px;color:var(--off);transition:color .15s}
+    .post-row p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}
+    @media(max-width:700px){.post-row{grid-template-columns:1fr;gap:6px}}
+
     footer{border-top:1px solid var(--line);padding:30px 32px;text-align:center;color:var(--muted);font-size:13px}
   </style>
 </head>
@@ -122,6 +131,7 @@
       <a href="#services">Services</a>
       <a href="#cases">Case Studies</a>
       <a href="#bio">Bio</a>
+      <a href="#writing">Writing</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -136,7 +146,7 @@
       <p class="sub">I help founders, CMOs, and authorizers design durable governance, equity-centered accountability, and facilities and growth plans grounded in reality.</p>
       <div class="cta-row">
         <a class="btn solid" href="#contact">Book a time</a>
-        <a class="btn" href="#cases">See four case studies</a>
+        <a class="btn" href="#cases">See case studies</a>
       </div>
     </div>
   </div>
@@ -172,7 +182,7 @@
     <div class="section-head">
       <div class="kicker">Track record</div>
       <h2>Case Studies</h2>
-      <p>Four engagements across the charter lifecycle.</p>
+      <p>Five engagements across the charter lifecycle.</p>
     </div>
     <div class="cases">
       <article class="case">
@@ -185,16 +195,16 @@
       <article class="case">
         <img class="case-img" src="assets/case-02.webp" alt="An old building facade with the ghost outline of an earlier structure">
         <div class="file">File 02 — Multi-Site CMO, Friendship Public Charter Schools</div>
-        <h3>Five-year network strategy with shared ownership</h3>
-        <p>I led a five-year strategic planning process that engaged voices across a complex network — leadership teams, teachers, and department heads, plus students, parents, and alumni through surveys and focus groups. Teachers from district-partner turnaround schools were included alongside families and community leaders to surface gaps across diverse governance structures, while the board and senior leadership aligned priorities with long-term goals.</p>
-        <p class="result">→ <b>Result:</b> a plan with shared ownership and credibility that strengthened academic performance, deepened community partnerships, and mapped a roadmap for sustainable growth.</p>
+        <h3>Baltimore and D.C. turnaround partnerships</h3>
+        <p>As Deputy Chief of Strategic Planning and Expansion at the largest charter CMO in D.C., I led business development and authored the charter applications, proposals, and external-facing documentation behind two district-invited turnarounds: the Baltimore Restart partnership, taking over persistently low-performing schools, and the Anacostia High School transformation, a flagship D.C. charter-district partnership. I worked closely with authorizers, district leadership, and school-based teams to align facilities, staffing, and enrollment strategy behind a single growth plan across both cities.</p>
+        <p class="result">→ <b>Result:</b> the Baltimore Restart partnership grew from 2 schools to 4 and 400 students to 3,000 in three years, and Friendship became a national reference point for turnaround-and-expand district partnerships in both Baltimore and D.C.</p>
       </article>
       <article class="case">
         <img class="case-img" src="assets/case-03.webp" alt="A brass telescope by a window at dusk">
         <div class="file">File 03 — State Authorizer, Nevada SPCSA</div>
-        <h3>Balancing growth, equity, and accountability</h3>
-        <p>When I became Executive Director of the Nevada State Public Charter School Authority, the existing plan emphasized growth and compliance. I worked with staff, school leaders, boards, and advocates to embed equity into both process and outcomes in the 2016 update, after stakeholder engagement highlighted disparities in access for low-income students, English learners, and students with disabilities.</p>
-        <p class="result">→ <b>Result:</b> the Authority shifted from authorizing "more schools" to ensuring all students had access to quality options — a plan since cited as a model for balancing growth with inclusion and accountability.</p>
+        <h3>From bottom-tier law to the nation's #1-ranked charter law</h3>
+        <p>When I became Executive Director of the Nevada State Public Charter School Authority, the existing plan emphasized growth and compliance over outcomes. I worked with staff, school leaders, boards, and advocates to author and pass SB 509 and AB 49 — bipartisan legislation that took Nevada's charter law from bottom-tier to nationally ranked #1 by NACSA — while embedding equity into enrollment and accountability practice, after stakeholder engagement highlighted disparities in access for low-income students, English learners, and students with disabilities.</p>
+        <p class="result">→ <b>Result:</b> in four years, the SPCSA's portfolio grew by more than 28,000 students and 4- and 5-star rated seats doubled, while the Authority secured Nevada's first federal Charter Schools Program grant in over a decade ($16.5M) — proof that growth and equity could scale together, not trade off.</p>
       </article>
       <article class="case">
         <img class="case-img" src="assets/case-04.webp" alt="An empty conference table just after a meeting">
@@ -202,6 +212,13 @@
         <h3>Chief-of-staff-style stabilization in transition</h3>
         <p>In a confidential engagement, I served in a de facto "chief of staff" role for a nonprofit navigating leadership transition and strategic planning simultaneously — creating backwards-mapped data systems, aligning board governance routines with strategic priorities, and keeping leadership time focused on progress monitoring rather than operational minutiae.</p>
         <p class="result">→ <b>Result:</b> a smoother leadership handoff, stronger staff alignment, and a board more capable of stewarding mission and strategy.</p>
+      </article>
+      <article class="case" style="border-right:none">
+        <!-- No image yet; commission one later (e.g. a base-gate or flagpole-at-dusk composition) -->
+        <div class="file">File 05 — Charter Development, Louisiana</div>
+        <h3>The first charter school on a U.S. military base</h3>
+        <p>Early in my career, I co-authored and project-managed the proposal for Belle Chasse Academy, working with military families, base leadership, and state officials to design a public school inside a policy environment that had no template yet — including the state law changes needed to make the partnership possible.</p>
+        <p class="result">→ <b>Result:</b> Belle Chasse Academy opened as the first charter school on a U.S. military base and scored the highest rating of any charter application in Louisiana history at the time.</p>
       </article>
     </div>
   </section>
@@ -227,6 +244,37 @@
           <li><b>Ideation</b> — generate novel, practical solutions</li>
         </ul>
       </div>
+    </div>
+  </section>
+
+  <section id="writing">
+    <div class="section-head">
+      <div class="kicker">Selected writing</div>
+      <h2>Writing &amp; Commentary</h2>
+      <p>Essays on governance, accountability, and the charter sector, adapted from LinkedIn and Substack.</p>
+    </div>
+    <div class="posts">
+      <a class="post-row" href="writing/institutional-trust.html">
+        <div class="date">Governance</div>
+        <div>
+          <h3>What Does It Take to Earn the Public's Trust?</h3>
+          <p>On the closures of Hampshire College and Anna Maria College, and the governance question every public institution eventually faces.</p>
+        </div>
+      </a>
+      <a class="post-row" href="writing/mergers-and-humility.html">
+        <div class="date">Strategy</div>
+        <div>
+          <h3>Choosing What's Right Over Proving Who's Right</h3>
+          <p>What a charter merger in Indianapolis says about governance as the sector matures.</p>
+        </div>
+      </a>
+      <a class="post-row" href="writing/the-reports-nobody-was-reading.html">
+        <div class="date">Accountability</div>
+        <div>
+          <h3>The Reports Nobody Was Reading</h3>
+          <p>Nevada eliminated 26 mandated reports and consolidated 22 more. Here's why that's an accountability story, not a deregulation one.</p>
+        </div>
+      </a>
     </div>
   </section>
 
